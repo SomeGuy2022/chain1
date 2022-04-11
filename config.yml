@@ -3,6 +3,8 @@ accounts:
     coins: ["200000token", "200000000stake"]
   - name: address2
     coins: ["100000token", "100000000stake"]
+  - name: address3
+    coins: ["300000token", "100000000stake"]
 validator:
   name: address1
   staked: "100000000stake"
