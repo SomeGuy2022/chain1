@@ -1,0 +1,14 @@
+syntax = "proto3";
+package SomeGuy2022.chain1.chain1;
+
+import "gogoproto/gogo.proto";
+import "chain1/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/SomeGuy2022/chain1/x/chain1/types";
+
+// GenesisState defines the chain1 module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}

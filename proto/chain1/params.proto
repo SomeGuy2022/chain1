@@ -1,0 +1,12 @@
+syntax = "proto3";
+package SomeGuy2022.chain1.chain1;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/SomeGuy2022/chain1/x/chain1/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
