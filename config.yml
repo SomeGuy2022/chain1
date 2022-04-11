@@ -1,10 +1,10 @@
 accounts:
-  - name: alice
-    coins: ["20000token", "200000000stake"]
-  - name: bob
-    coins: ["10000token", "100000000stake"]
+  - name: address1
+    coins: ["200000token", "200000000stake"]
+  - name: address2
+    coins: ["100000token", "100000000stake"]
 validator:
-  name: alice
+  name: address1
   staked: "100000000stake"
 client:
   openapi:
@@ -12,5 +12,5 @@ client:
   vuex:
     path: "vue/src/store"
 faucet:
-  name: bob
+  name: address2
   coins: ["5token", "100000stake"]
